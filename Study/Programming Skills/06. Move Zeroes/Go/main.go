@@ -27,5 +27,5 @@ func moveZeroes(nums []int)  {
       j++
     }
   }
-  return nums
+  return
 }
