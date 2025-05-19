@@ -4,16 +4,16 @@ impl Solution {
 
         // Step 1: Check if the three sides form a valid triangle
         if a + b <= c || a + c <= b || b + c <= a {
-            return "none".toString();
+            return "none".to_string();
         }
 
         // Step 2: Determine the type of triangle
         if a == b && b == c {
-            "equilateral".toString()
+            "equilateral".to_string()
         } else if a == b || a == c || b == c {
-            "isosceles".toString()
+            "isosceles".to_string()
         } else {
-            "scalene".toString()
+            "scalene".to_string()
         }
     }
 }
